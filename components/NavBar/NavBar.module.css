@@ -1,0 +1,33 @@
+.navbar-item {
+  text-decoration: none;
+  color: var(--dark-grayish-blue-clr);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.navbar-item:hover {
+  color: var(--soft-red-clr);
+}
+
+.navbar-desktop {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+.sidebar-btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-item {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .navbar-desktop {
+    display: none;
+  }
+  .sidebar-btn {
+    display: block;
+  }
+}

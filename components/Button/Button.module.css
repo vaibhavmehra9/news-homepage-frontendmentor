@@ -1,0 +1,24 @@
+.button-primary {
+  background-color: var(--soft-red-clr);
+  color: white;
+  padding: 1.5rem 3.5rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.5rem;
+  outline: 0;
+  border: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button-primary:hover {
+  background-color: var(--dark-blue-clr);
+}
+
+.button-primary:active {
+  opacity: 0.75;
+}
+
+.button-primary:disabled {
+  opacity: 0.5;
+}

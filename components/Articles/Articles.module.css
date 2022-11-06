@@ -1,0 +1,39 @@
+.articles {
+  display: flex;
+  justify-content: space-between;
+  gap: 4.5rem;
+}
+
+.article {
+  display: flex;
+  gap: 1rem;
+}
+
+.article-num {
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--grayish-blue-clr);
+}
+
+.article-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark-blue-clr);
+  cursor: pointer;
+}
+
+.article-title:hover {
+  color: var(--soft-red-clr);
+  cursor: pointer;
+}
+
+.article-desc {
+  font-size: 1.2rem;
+  color: var(--dark-grayish-blue-clr);
+}
+
+@media screen and (max-width: 768px) {
+  .articles {
+    flex-direction: column;
+  }
+}

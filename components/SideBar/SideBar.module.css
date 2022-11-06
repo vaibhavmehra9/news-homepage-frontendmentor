@@ -1,0 +1,29 @@
+.sidebar-overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-end;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  display: flex;
+}
+
+.sidebar {
+  width: 70%;
+  background-color: white;
+  padding: 2rem;
+}
+
+.sidebar-close-menu-btn-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sidebar-body {
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+  justify-content: center;
+}

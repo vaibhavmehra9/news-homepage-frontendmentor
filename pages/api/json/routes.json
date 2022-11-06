@@ -1,0 +1,22 @@
+{
+  "1": {
+    "title": "Home",
+    "url": "#"
+  },
+  "2": {
+    "title": "New",
+    "url": "#"
+  },
+  "3": {
+    "title": "Popular",
+    "url": "#"
+  },
+  "4": {
+    "title": "Trending",
+    "url": "#"
+  },
+  "5": {
+    "title": "Categories",
+    "url": "#"
+  }
+}
